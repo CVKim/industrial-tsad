@@ -34,20 +34,20 @@ benchmark is the reference for each change before it is used on plant data.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/assets/results-dark.svg">
-  <img alt="VUS-PR on the TSB-AD eval lists. TSB-AD-M: PaAno final + regime gate 0.589, PaAno final 0.544, AxonAD 0.495. TSB-AD-U: MSCAD re-implementation 0.572, PaAno final 0.552, TSPulse-FT 0.552." src="docs/assets/results-light.svg" width="100%">
+  <img alt="VUS-PR on the TSB-AD eval lists. TSB-AD-M: PaAno final + regime gate 0.589, PaAno final 0.544, AxonAD 0.495. TSB-AD-U: Time-RCD+MAFT (FT, published) 0.586, MSCAD re-implementation 0.572, PaAno final 0.552, TSPulse-FT 0.552." src="docs/assets/results-light.svg" width="100%">
 </picture>
 
 | VUS-PR | TSB-AD-M · 180 series | TSB-AD-U · 350 series |
 |---|:---:|:---:|
 | **PaAno final + regime gate** | **0.589 ± 0.001** | — |
 | PaAno final (`paano_final`) | 0.544 ± 0.001 | 0.552 |
-| MSCAD, our re-implementation (`mscad`) | 0.465 | **0.572** |
-| Best published per-series result | 0.495 (AxonAD) | 0.552 (TSPulse-FT) |
+| MSCAD, our re-implementation (`mscad`) | 0.465 | 0.572 |
+| Best published per-series result | 0.495 (AxonAD) | **0.586** (Time-RCD+MAFT, FT) |
 
 - **Regime gate.** AxonAD's JEPA term is added only on series whose test-part median exceeds τ = 5. That gives
   +0.093 to +0.095 over the published AxonAD, with series and dataset-cluster intervals above zero for every AxonAD seed.
 - **Univariate.** MSCAD − PaAno = +0.020 (95 % CI −0.015 … +0.057, not significant). On 472 further univariate series
-  PaAno leads, 0.407 vs 0.320.
+  PaAno leads, 0.407 vs 0.320. The best published univariate result, Time-RCD+MAFT (FT), is ahead of both at 0.586.
 - **Negative results are kept.** Mode-token adapters and score fusion did not pass the protocol; see
   [docs/results_tsbad.md](docs/results_tsbad.md).
 
@@ -115,8 +115,9 @@ Data and third-party code stay outside the repository. Point to them with enviro
 | `ITSAD_KANAD_CODE` | clone of [KAN-AD](https://github.com/issaccv/KAN-AD), only for `kanad` |
 | `ITSAD_RESULTS` | output folder, default `results/` |
 
-`published:<Method>` reads per-series results from the clone's `benchmark_exp/`. AxonAD and StreamVAE are not in the
-clone: copy `Multi_AxonAD.csv` and `Multi_StreamVAE.csv` from the
+`published:<Method>` reads per-series results from the clone's `benchmark_exp/`. Newer leaderboard entries are not in
+the clone: copy `Multi_AxonAD.csv`, `Multi_StreamVAE.csv`, `Uni_AxonAD.csv`, `Uni_StreamVAE.csv` and
+`Uni_TimeRCD_MAFT.csv` (`published:TimeRCD_MAFT`) from the
 [TSB-AD leaderboard](https://github.com/TheDatumOrg/TSB-AD/tree/main/benchmark_exp/leaderboard_results) into
 `<TSB-AD data>/leaderboard_results/`.
 

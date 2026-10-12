@@ -37,6 +37,7 @@ M = [
     ("TimesNet", 0.185, False),
 ]
 U = [
+    ("Time-RCD+MAFT (FT)", 0.586, False),
     ("MSCAD (re-implemented)", 0.572, True),
     ("PaAno final", 0.552, True),
     ("TSPulse-FT", 0.552, False),

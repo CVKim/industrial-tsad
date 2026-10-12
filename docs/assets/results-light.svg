@@ -282,187 +282,204 @@ z
   </g>
   <g id="axes_2">
    <g id="patch_14">
-    <path d="M 550.368 160.690909 
-L 722.592 160.690909 
+    <path d="M 550.368 186.349091 
+L 722.592 186.349091 
 L 722.592 32.4 
 L 550.368 32.4 
-L 550.368 160.690909 
+L 550.368 186.349091 
 z
 " style="fill: none"/>
    </g>
    <g id="matplotlib.axis_3">
     <g id="xtick_5">
      <g id="line2d_20">
-      <path d="M 550.368 160.690909 
+      <path d="M 550.368 186.349091 
 L 550.368 32.4 
-" clip-path="url(#p4ec1cf6757)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_21"/>
      <g id="text_29">
-      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="550.368" y="171.029503" transform="rotate(-0 550.368 171.029503)">0.0</text>
+      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="550.368" y="196.687685" transform="rotate(-0 550.368 196.687685)">0.0</text>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_22">
-      <path d="M 601.022118 160.690909 
+      <path d="M 601.022118 186.349091 
 L 601.022118 32.4 
-" clip-path="url(#p4ec1cf6757)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_23"/>
      <g id="text_30">
-      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="601.022118" y="171.029503" transform="rotate(-0 601.022118 171.029503)">0.2</text>
+      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="601.022118" y="196.687685" transform="rotate(-0 601.022118 196.687685)">0.2</text>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_24">
-      <path d="M 651.676235 160.690909 
+      <path d="M 651.676235 186.349091 
 L 651.676235 32.4 
-" clip-path="url(#p4ec1cf6757)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_25"/>
      <g id="text_31">
-      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="651.676235" y="171.029503" transform="rotate(-0 651.676235 171.029503)">0.4</text>
+      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="651.676235" y="196.687685" transform="rotate(-0 651.676235 196.687685)">0.4</text>
      </g>
     </g>
     <g id="xtick_8">
      <g id="line2d_26">
-      <path d="M 702.330353 160.690909 
+      <path d="M 702.330353 186.349091 
 L 702.330353 32.4 
-" clip-path="url(#p4ec1cf6757)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: none; stroke: #d1d9e0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_27"/>
      <g id="text_32">
-      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="702.330353" y="171.029503" transform="rotate(-0 702.330353 171.029503)">0.6</text>
+      <text style="font-size: 9px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="702.330353" y="196.687685" transform="rotate(-0 702.330353 196.687685)">0.6</text>
      </g>
     </g>
     <g id="text_33">
-     <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="636.48" y="184.119737" transform="rotate(-0 636.48 184.119737)">VUS-PR</text>
+     <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #59636e" x="636.48" y="209.777919" transform="rotate(-0 636.48 209.777919)">VUS-PR</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
     <g id="ytick_12">
      <g id="line2d_28"/>
      <g id="text_34">
-      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="149.687331" transform="rotate(-0 544.368 149.687331)">CHARM</text>
+      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="175.250011" transform="rotate(-0 544.368 175.250011)">CHARM</text>
      </g>
     </g>
     <g id="ytick_13">
      <g id="line2d_29"/>
      <g id="text_35">
-      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="125.016002" transform="rotate(-0 544.368 125.016002)">Time-RCD</text>
+      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="150.419512" transform="rotate(-0 544.368 150.419512)">Time-RCD</text>
      </g>
     </g>
     <g id="ytick_14">
      <g id="line2d_30"/>
      <g id="text_36">
-      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="100.344673" transform="rotate(-0 544.368 100.344673)">TSPulse-FT</text>
+      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="125.589013" transform="rotate(-0 544.368 125.589013)">TSPulse-FT</text>
      </g>
     </g>
     <g id="ytick_15">
      <g id="line2d_31"/>
      <g id="text_37">
-      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="75.673345" transform="rotate(-0 544.368 75.673345)">PaAno final</text>
+      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="100.758515" transform="rotate(-0 544.368 100.758515)">PaAno final</text>
      </g>
     </g>
     <g id="ytick_16">
      <g id="line2d_32"/>
      <g id="text_38">
-      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="51.002016" transform="rotate(-0 544.368 51.002016)">MSCAD (re-implemented)</text>
+      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="75.928016" transform="rotate(-0 544.368 75.928016)">MSCAD (re-implemented)</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_33"/>
+     <g id="text_39">
+      <text style="font-size: 10px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2328" x="544.368" y="51.097518" transform="rotate(-0 544.368 51.097518)">Time-RCD+MAFT (FT)</text>
      </g>
     </g>
    </g>
    <g id="patch_15">
-    <path d="M 550.368 153.536224 
-L 677.256565 153.536224 
-L 677.256565 138.24 
-L 550.368 138.24 
+    <path d="M 550.368 179.148246 
+L 677.256565 179.148246 
+L 677.256565 163.753337 
+L 550.368 163.753337 
 z
-" clip-path="url(#p4ec1cf6757)" style="fill: #9aa6b2"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: #9aa6b2"/>
    </g>
    <g id="patch_16">
-    <path d="M 550.368 128.864895 
-L 682.575247 128.864895 
-L 682.575247 113.568671 
-L 550.368 113.568671 
+    <path d="M 550.368 154.317748 
+L 682.575247 154.317748 
+L 682.575247 138.922839 
+L 550.368 138.922839 
 z
-" clip-path="url(#p4ec1cf6757)" style="fill: #9aa6b2"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: #9aa6b2"/>
    </g>
    <g id="patch_17">
-    <path d="M 550.368 104.193566 
-L 690.173365 104.193566 
-L 690.173365 88.897343 
-L 550.368 88.897343 
+    <path d="M 550.368 129.487249 
+L 690.173365 129.487249 
+L 690.173365 114.09234 
+L 550.368 114.09234 
 z
-" clip-path="url(#p4ec1cf6757)" style="fill: #9aa6b2"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: #9aa6b2"/>
    </g>
    <g id="patch_18">
-    <path d="M 550.368 79.522238 
-L 690.173365 79.522238 
-L 690.173365 64.226014 
-L 550.368 64.226014 
+    <path d="M 550.368 104.656751 
+L 690.173365 104.656751 
+L 690.173365 89.261842 
+L 550.368 89.261842 
 z
-" clip-path="url(#p4ec1cf6757)" style="fill: #0f8b7d"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: #0f8b7d"/>
    </g>
    <g id="patch_19">
-    <path d="M 550.368 54.850909 
-L 695.238776 54.850909 
-L 695.238776 39.554685 
-L 550.368 39.554685 
+    <path d="M 550.368 79.826252 
+L 695.238776 79.826252 
+L 695.238776 64.431343 
+L 550.368 64.431343 
 z
-" clip-path="url(#p4ec1cf6757)" style="fill: #0f8b7d"/>
+" clip-path="url(#p1c3955c0cd)" style="fill: #0f8b7d"/>
    </g>
-   <g id="text_39">
-    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="679.282729" y="148.509518" transform="rotate(-0 679.282729 148.509518)">0.501</text>
+   <g id="patch_20">
+    <path d="M 550.368 54.995754 
+L 698.784565 54.995754 
+L 698.784565 39.600845 
+L 550.368 39.600845 
+z
+" clip-path="url(#p1c3955c0cd)" style="fill: #9aa6b2"/>
    </g>
    <g id="text_40">
-    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="684.601412" y="123.838189" transform="rotate(-0 684.601412 123.838189)">0.522</text>
+    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="679.282729" y="174.072198" transform="rotate(-0 679.282729 174.072198)">0.501</text>
    </g>
    <g id="text_41">
-    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="692.199529" y="99.166861" transform="rotate(-0 692.199529 99.166861)">0.552</text>
+    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="684.601412" y="149.2417" transform="rotate(-0 684.601412 149.2417)">0.522</text>
    </g>
    <g id="text_42">
-    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="692.199529" y="74.495532" transform="rotate(-0 692.199529 74.495532)">0.552</text>
+    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="692.199529" y="124.411201" transform="rotate(-0 692.199529 124.411201)">0.552</text>
    </g>
    <g id="text_43">
-    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="697.264941" y="49.824203" transform="rotate(-0 697.264941 49.824203)">0.572</text>
+    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="692.199529" y="99.580702" transform="rotate(-0 692.199529 99.580702)">0.552</text>
    </g>
    <g id="text_44">
+    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="697.264941" y="74.750204" transform="rotate(-0 697.264941 74.750204)">0.572</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="700.810729" y="49.919705" transform="rotate(-0 700.810729 49.919705)">0.586</text>
+   </g>
+   <g id="text_46">
     <text style="font-weight: 700; font-size: 11.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="550.368" y="22.4" transform="rotate(-0 550.368 22.4)">TSB-AD-U · 350 univariate series</text>
    </g>
   </g>
-  <g id="patch_20">
-   <path d="M 434.304 226.079869 
-L 446.2848 226.079869 
-L 446.2848 215.301469 
-L 434.304 215.301469 
+  <g id="patch_21">
+   <path d="M 434.304 251.738051 
+L 446.2848 251.738051 
+L 446.2848 240.959651 
+L 434.304 240.959651 
 z
 " style="fill: #0f8b7d; stroke: #0f8b7d; stroke-linejoin: miter"/>
   </g>
-  <g id="patch_21">
-   <path d="M 434.304 251.229469 
-L 446.2848 251.229469 
-L 446.2848 240.451069 
-L 434.304 240.451069 
+  <g id="patch_22">
+   <path d="M 434.304 276.887651 
+L 446.2848 276.887651 
+L 446.2848 266.109251 
+L 434.304 266.109251 
 z
 " style="fill: #9aa6b2; stroke: #9aa6b2; stroke-linejoin: miter"/>
   </g>
-  <g id="text_45">
-   <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="453.024" y="224.389915" transform="rotate(-0 453.024 224.389915)">run with this repository</text>
-  </g>
-  <g id="text_46">
-   <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="453.024" y="249.539515" transform="rotate(-0 453.024 249.539515)">published per-series results</text>
-  </g>
   <g id="text_47">
-   <text style="font-size: 8.8px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #59636e" transform="translate(434.304 289.532734)">Official eval lists, one look each; the gate's</text>
-   <text style="font-size: 8.8px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #59636e" transform="translate(434.304 300.724134)">± is 0.001 over three AxonAD seeds.</text>
+   <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="453.024" y="250.048097" transform="rotate(-0 453.024 250.048097)">run with this repository</text>
+  </g>
+  <g id="text_48">
+   <text style="font-size: 9.5px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2328" x="453.024" y="275.197697" transform="rotate(-0 453.024 275.197697)">published per-series results</text>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 8.8px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #59636e" transform="translate(434.304 315.190916)">Official eval lists, one look each; the gate's</text>
+   <text style="font-size: 8.8px; font-family: -apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #59636e" transform="translate(434.304 326.382316)">± is 0.001 over three AxonAD seeds.</text>
   </g>
  </g>
  <defs>
   <clipPath id="p4555e576bd">
    <rect x="175.968" y="32.4" width="224.64" height="282.24"/>
   </clipPath>
-  <clipPath id="p4ec1cf6757">
-   <rect x="550.368" y="32.4" width="172.224" height="128.290909"/>
+  <clipPath id="p1c3955c0cd">
+   <rect x="550.368" y="32.4" width="172.224" height="153.949091"/>
   </clipPath>
  </defs>
 </svg>

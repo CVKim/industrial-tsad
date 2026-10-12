@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+* TSB-AD-U published reference: the official leaderboard's best entry, Time-RCD+MAFT (FT) at 0.586, replaces
+  TSPulse-FT (0.552) in the README table and chart and in `docs/results_tsbad.md`; `published:TimeRCD_MAFT` reads
+  `Uni_TimeRCD_MAFT.csv` from `<TSB-AD data>/leaderboard_results/` (with `Uni_AxonAD.csv`, `Uni_StreamVAE.csv`).
+* MSCAD + mode tokens (K 64) on the 350 TSB-AD-U eval series, reported after it failed tuning: 0.576 vs 0.572 (n.s.).
+
 ## 0.1.0 — 2026-10-12
 
 First structured release, refactored from the 2026-10 research scripts.

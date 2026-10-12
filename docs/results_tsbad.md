@@ -1,8 +1,10 @@
 # Results on TSB-AD (public benchmark)
 
 VUS-PR, official eval lists, protocol of [protocol.md](protocol.md). "published" = per-series results released with
-TSB-AD or its leaderboard; "paper" = self-reported in the paper only. Produced by the research scripts this package was
-refactored from (2026-10); the package reproduces them (`scripts/verify_reproduction.py`).
+TSB-AD or merged into its leaderboard (state of 2026-10-12); "paper" = self-reported in the paper only. Open pull
+requests to the leaderboard report higher numbers, some through hosted APIs or compiled code only; they are listed
+once merged. Produced by the research scripts this package was refactored from (2026-10); the package reproduces them
+(`scripts/verify_reproduction.py`).
 
 ## TSB-AD-M (multivariate, 180 eval series)
 
@@ -36,14 +38,18 @@ predictive models, whatever the selection granularity; in reconstruction space t
 
 | method | VUS-PR | note |
 |---|---|---|
-| MSCAD (our re-implementation) | 0.572 | paper 0.57 — reproduced |
+| Time-RCD+MAFT (FT) (published) | 0.586 | best entry of the official leaderboard; per-series CSV, no M result |
+| MSCAD (our re-implementation) | 0.572 | paper 0.57 — reproduced; vs Time-RCD+MAFT −0.013 (series CI −0.053..+0.027, n.s.) |
 | PaAno final (multivariate config as is) | 0.552 | MSCAD − PaAno +0.020, series CI −0.015..+0.057 (n.s.); PaAno ahead on 15 datasets, MSCAD on 6 |
 | TSPulse-FT (published) | 0.552 | |
 | Time-RCD / CHARM (published) | 0.522 / 0.501 | |
+| StreamVAE / AxonAD (published) | 0.451 / 0.434 | |
 
 * **Held-out 472 series** (Eva-Full minus the 350 eval and 48 tuning series; YAHOO, UCR, WSD, Stock):
   MSCAD 0.320, PaAno 0.407 — MSCAD's univariate lead depends on the composition of the official eval list.
   Over all 822 Eva-Full series: MSCAD 0.427, PaAno 0.468.
 * **Fusion** rz(PaAno) + 0.5 · rz(MSCAD): 0.620 on the 350 eval series, but it failed the tuning rule (SMAP −0.13) and
   the pre-registered confirmation on the 472 held-out series (+0.008 vs PaAno, CI −0.005..+0.022) → not claimed.
-* MSCAD + modes (K 64) on TSB-AD-U: fails the tuning rule (WSD −0.050).
+* MSCAD + modes (K 64) on TSB-AD-U: fails the tuning rule (WSD −0.050). Run on the 350 eval series for reporting
+  only: 0.576 vs 0.572 (+0.004, series CI −0.006..+0.013, dataset-cluster CI −0.005..+0.010; 7 datasets up, 6 down)
+  — no gain.
