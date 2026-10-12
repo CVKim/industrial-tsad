@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "industrial-tsad: evaluation protocol",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "legend": {
+      "entries": {
+        "backend": { "label": "Computation" },
+        "security": { "label": "Rule" },
+        "frontend": { "label": "Reported claim" },
+        "external": { "label": "Stop / negative" }
+      }
+    }
+  },
+  "lanes": [
+    { "id": "select", "label": "Selection on the tuning list" },
+    { "id": "eval", "label": "Evaluation on the eval list, once" },
+    { "id": "out", "label": "Outcome", "variant": "exception" }
+  ],
+  "mainPath": ["cand", "drule", "prereg", "run", "paired", "crule", "claim"],
+  "nodes": [
+    { "id": "cand", "lane": "select", "col": 0, "type": "backend", "label": "Candidate variants", "sublabel": "presets · settings", "width": 136 },
+    { "id": "drule", "lane": "select", "col": 1, "type": "security", "label": "Dataset rule", "sublabel": "more datasets up than down", "width": 136 },
+    { "id": "prereg", "lane": "select", "col": 2, "type": "security", "label": "Pre-register", "sublabel": "rules + code SHA-256", "width": 136 },
+    { "id": "run", "lane": "eval", "col": 3, "type": "backend", "label": "Run once", "sublabel": "180 M · 350 U series", "width": 136 },
+    { "id": "paired", "lane": "eval", "col": 4, "type": "backend", "label": "Paired bootstrap", "sublabel": "series + dataset clusters", "width": 136 },
+    { "id": "crule", "lane": "eval", "col": 5, "type": "security", "label": "Claim rule", "sublabel": "≥ +0.008 and CI > 0", "width": 136 },
+    { "id": "stop", "lane": "out", "col": 1, "type": "external", "label": "Stop", "sublabel": "no variant passes", "width": 136 },
+    { "id": "negative", "lane": "out", "col": 4, "type": "external", "label": "Negative result", "sublabel": "kept, not re-tuned", "width": 136 },
+    { "id": "claim", "lane": "out", "col": 5, "type": "frontend", "label": "Claim", "sublabel": "reported with CIs", "width": 136 }
+  ],
+  "edges": [
+    { "from": "cand", "to": "drule", "label": "tuning VUS-PR", "variant": "emphasis" },
+    { "from": "drule", "to": "prereg", "label": "best passing", "variant": "emphasis" },
+    { "from": "prereg", "to": "run", "label": "frozen", "variant": "emphasis" },
+    { "from": "run", "to": "paired", "variant": "emphasis" },
+    { "from": "paired", "to": "crule", "variant": "emphasis" },
+    { "from": "crule", "to": "claim", "label": "pass", "variant": "emphasis" },
+    { "from": "crule", "to": "negative", "label": "fail", "variant": "security", "role": "error" },
+    { "from": "drule", "to": "stop", "label": "none passes", "variant": "security", "role": "error" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Selection never sees eval data", "items": ["Variants are compared on the tuning list only (20 M / 48 U series)", "Dataset rule: more datasets up than down at |d| > 0.01, no dataset drop > 0.05"] },
+    { "dot": "violet", "title": "One look", "items": ["The registered variant runs once on the eval list", "The code hash is checked against the registration"] },
+    { "dot": "rose", "title": "Claim rule", "items": ["Gain ≥ +0.008 VUS-PR and series-bootstrap CI > 0", "Bonferroni over looks; negative results are kept"] }
+  ]
+}

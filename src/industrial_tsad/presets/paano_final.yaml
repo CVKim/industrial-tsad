@@ -1,0 +1,10 @@
+# PaAno + channel-independent term + amplitude-preserving term + point head (TSB-AD-M eval 180 = 0.544 +- 0.001, 3 seeds;
+# TSB-AD-U eval 350 = 0.552)
+type: paano
+patch: 96
+iters: 100
+metric: cosine
+revin: true
+ci: 1.0
+ci_amp: 1.0
+point: 0.5

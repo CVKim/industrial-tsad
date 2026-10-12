@@ -1,0 +1,6 @@
+# PaAno, official TSB-AD-M configuration (our port: TSB-AD-M eval 180 = 0.422; paper 0.43)
+type: paano
+patch: 96
+iters: 100
+metric: cosine
+revin: true

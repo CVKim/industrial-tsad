@@ -1,0 +1,6 @@
+{
+  "ITSAD_TSBAD_DATA": "/path/to/TSB-AD",
+  "ITSAD_TSBAD_CODE": "/path/to/AxonAD",
+  "ITSAD_CATCH_CODE": "/path/to/CATCH",
+  "ITSAD_KANAD_CODE": "/path/to/KAN-AD"
+}

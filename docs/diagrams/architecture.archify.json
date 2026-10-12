@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "industrial-tsad: one benchmark run",
+    "locale": "en",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    { "id": "data", "type": "database", "label": "TSB-AD data", "sublabel": "TSB-AD-M · TSB-AD-U", "pos": [40, 110], "size": [160, 64] },
+    { "id": "clones", "type": "external", "label": "CATCH · KAN-AD", "sublabel": "local clones", "pos": [270, 110], "size": [170, 64] },
+    { "id": "tsbad", "type": "external", "label": "AxonAD clone", "sublabel": "TSB_AD · lists · published", "pos": [510, 110], "size": [160, 64] },
+    { "id": "runner", "type": "frontend", "label": "BenchmarkRunner", "sublabel": "run_benchmark.py", "pos": [40, 320], "size": [160, 64], "tag": "N workers" },
+    { "id": "detector", "type": "backend", "label": "Detector", "sublabel": "fit_score(x, train_end, seed)", "pos": [270, 320], "size": [170, 64], "tag": "6 detectors" },
+    { "id": "metrics", "type": "backend", "label": "VUS-PR", "sublabel": "threshold-free, per series", "pos": [510, 320], "size": [160, 64] },
+    { "id": "results", "type": "database", "label": "results/", "sublabel": "metrics · scores · parts", "pos": [740, 320], "size": [150, 64], "tag": "git-ignored" },
+    { "id": "compare", "type": "frontend", "label": "compare · fuse · gate", "sublabel": "paired bootstrap", "pos": [960, 320], "size": [170, 64] },
+    { "id": "config", "type": "backend", "label": "Preset → Config", "sublabel": "pydantic · registry", "pos": [270, 500], "size": [170, 64] },
+    { "id": "prereg", "type": "security", "label": "Pre-registration", "sublabel": "rules + code SHA-256", "pos": [960, 500], "size": [170, 64] }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "outside the repository: ITSAD_* / paths.local.json", "wraps": ["data", "clones", "tsbad"] },
+    { "kind": "region", "label": "industrial-tsad repository", "wraps": ["runner", "detector", "metrics", "results", "compare", "config", "prereg"] }
+  ],
+  "connections": [
+    { "id": "runner-detector", "from": "runner", "to": "detector", "label": "fit_score", "variant": "emphasis" },
+    { "id": "detector-metrics", "from": "detector", "to": "metrics", "label": "scores", "variant": "emphasis" },
+    { "id": "metrics-results", "from": "metrics", "to": "results", "label": "write", "variant": "emphasis" },
+    { "id": "results-compare", "from": "results", "to": "compare", "label": "two runs", "variant": "emphasis" },
+    { "id": "data-runner", "from": "data", "to": "runner", "label": "series + labels", "fromSide": "bottom", "toSide": "top", "labelAt": [120, 247] },
+    { "id": "clones-detector", "from": "clones", "to": "detector", "label": "import, not vendored", "variant": "dashed", "fromSide": "bottom", "toSide": "top", "labelAt": [355, 247] },
+    { "id": "tsbad-metrics", "from": "tsbad", "to": "metrics", "label": "metric code", "variant": "dashed", "fromSide": "bottom", "toSide": "top", "labelAt": [590, 247] },
+    { "id": "tsbad-compare", "from": "tsbad", "to": "compare", "label": "published results", "variant": "dashed", "fromSide": "right", "toSide": "top" },
+    { "id": "config-detector", "from": "config", "to": "detector", "label": "builds", "fromSide": "top", "toSide": "bottom" },
+    { "id": "prereg-compare", "from": "prereg", "to": "compare", "label": "claim rule", "variant": "security", "fromSide": "top", "toSide": "bottom" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "One interface", "items": ["Every detector returns point scores from fit_score(x, train_end, seed)", "YAML preset → strict pydantic config → registry"] },
+    { "dot": "amber", "title": "Nothing vendored", "items": ["TSB_AD, CATCH and KAN-AD are imported from local clones at run time", "Origins and licences: THIRD_PARTY_NOTICES.md"] },
+    { "dot": "emerald", "title": "Reproducible runs", "items": ["Claim files let several workers share one run", "Per-series seeds; scores and score parts are saved"] }
+  ]
+}

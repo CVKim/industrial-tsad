@@ -1,0 +1,6 @@
+# AxonAD + JEPA-query-space mode tokens, one mode per step jointly over the heads (TSB-AD-M tuning: GHL lost, fails)
+type: axonad
+adapter:
+  space: query
+  n_modes: 8
+  selection: joint

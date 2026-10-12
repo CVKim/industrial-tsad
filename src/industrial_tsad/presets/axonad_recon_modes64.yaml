@@ -1,0 +1,5 @@
+# AxonAD + reconstruction-space mode-token adapter, K = 64 (TSB-AD-M eval +0.004 vs AxonAD, not significant)
+type: axonad
+adapter:
+  space: recon
+  n_modes: 64

@@ -1,0 +1,3 @@
+# MSCAD + mode-token adapter, 64 tokens per scale (TSB-AD-M: 16 tokens -0.010; TSB-AD-U tuning: fails the dataset rule)
+type: mscad
+n_modes: 64

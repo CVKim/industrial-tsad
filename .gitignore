@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+
+# Run outputs, data, external code and machine-specific paths never belong in the repository
+paths.local.json
+results/
+data/
+external/
+cache/
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+*.engine
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
